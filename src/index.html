@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>유효성 검사</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="validator.js"></script>
+</head>
+
+<body>
+  <h1>회원가입</h1>
+  <fieldset>
+    <label>아이디<input id="username" type="text"></label>
+    <div class="success-message hide">사용할 수 있는 아이디 입니다</div>
+    <div class="failure-message hide">사용할 수 없는 아이디 입니다</div>
+  </fieldset>
+  <fieldset>비밀번호<input class="password" type="text"></fieldset>
+  <fieldset>비밀번호 확인<input class="password2" type="text">
+  <div class="check hide" >비밀번호를 맞추세요</div></fieldset>
+  <fieldset><input value="회원가입"type="button"></fieldset>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
